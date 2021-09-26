@@ -39,6 +39,18 @@
 @font-face {
   font-family: NanumSquareWebFont-edwith;
   font-style: normal;
+  font-weight: 100;
+  src: url(https://ssl.pstatic.net/static/connectfdn/edwith/font/NanumSquare_acL.eot);
+  src: url(https://ssl.pstatic.net/static/connectfdn/edwith/font/NanumSquare_acL.eot?#iefix)
+      format("embedded-opentype"),
+    url(https://ssl.pstatic.net/static/connectfdn/edwith/font/NanumSquare_acL.woff)
+      format("woff"),
+    url(https://ssl.pstatic.net/static/connectfdn/edwith/font/NanumSquare_acL.ttf)
+      format("truetype");
+}
+@font-face {
+  font-family: NanumSquareWebFont-edwith;
+  font-style: normal;
   font-weight: 300;
   src: url(https://ssl.pstatic.net/static/connectfdn/edwith/font/NanumSquare_acR.eot);
   src: url(https://ssl.pstatic.net/static/connectfdn/edwith/font/NanumSquare_acR.eot?#iefix)
@@ -58,6 +70,18 @@
     url(https://ssl.pstatic.net/static/connectfdn/edwith/font/NanumSquare_acB.woff)
       format("woff"),
     url(https://ssl.pstatic.net/static/connectfdn/edwith/font/NanumSquare_acB.ttf)
+      format("truetype");
+}
+@font-face {
+  font-family: NanumSquareWebFont-edwith;
+  font-style: normal;
+  font-weight: 900;
+  src: url(https://ssl.pstatic.net/static/connectfdn/edwith/font/NanumSquare_acEB.eot);
+  src: url(https://ssl.pstatic.net/static/connectfdn/edwith/font/NanumSquare_acEB.eot?#iefix)
+      format("embedded-opentype"),
+    url(https://ssl.pstatic.net/static/connectfdn/edwith/font/NanumSquare_acEB.woff)
+      format("woff"),
+    url(https://ssl.pstatic.net/static/connectfdn/edwith/font/NanumSquare_acEB.ttf)
       format("truetype");
 }
 
@@ -114,27 +138,46 @@
 }
 
 @font-face {
-  font-family: se_NanumGothic_new;
-  src: url(http://viewoss.navercorp.com/lee-juyong/SE3-Markup-Test/blob/webfont_final/font/NanumSquare_se_R.eot);
-  src: url(http://viewoss.navercorp.com/lee-juyong/SE3-Markup-Test/blob/webfont_final/font/NanumSquare_se_R.eot?iefix)
-      format("opentype"),
-    url(http://viewoss.navercorp.com/lee-juyong/SE3-Markup-Test/blob/webfont_final/font/NanumSquare_se_R.woff2)
+  font-family: se_NanumSquare_viewoss;
+  font-weight: 400;
+  src: url(../font/NanumSquare_se_R.eot);
+  src: url(../font/NanumSquare_se_R.eot?iefix) format("opentype"),
+    url(../font/NanumSquare_se_R.woff2) format("woff2"),
+    url(../font/NanumSquare_se_R.woff) format("woff"),
+    url(../font/NanumSquare_se_R.ttf) format("truetype");
+}
+@font-face {
+  font-family: se_NanumSquare_viewoss;
+  font-weight: 600;
+  src: url(../font/NanumSquare_se_B.eot);
+  src: url(../font/NanumSquare_se_B.eot?iefix) format("opentype"),
+    url(../font/NanumSquare_se_B.woff2) format("woff2"),
+    url(../font/NanumSquare_se_B.woff) format("woff"),
+    url(../font/NanumSquare_se_B.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: se-nanumsquare-blog;
+  font-weight: 400;
+  src: url("https://editor-static.pstatic.net/c/resources/common/fonts/se-nanumsquare-regular.eot?iefix")
+      format("embedded-opentype"),
+    url("https://editor-static.pstatic.net/c/resources/common/fonts/se-nanumsquare-regular.woff2")
       format("woff2"),
-    url(http://viewoss.navercorp.com/lee-juyong/SE3-Markup-Test/blob/webfont_final/font/NanumSquare_se_R.woff)
+    url("https://editor-static.pstatic.net/c/resources/common/fonts/se-nanumsquare-regular.woff")
       format("woff"),
-    url(http://viewoss.navercorp.com/lee-juyong/SE3-Markup-Test/blob/webfont_final/font/NanumSquare_se_R.ttf)
+    url("https://editor-static.pstatic.net/c/resources/common/fonts/se-nanumsquare-regular.ttf")
       format("truetype");
 }
 @font-face {
-  font-family: se_NanumGothic_new;
-  src: url(http://viewoss.navercorp.com/lee-juyong/SE3-Markup-Test/blob/webfont_final/font/NanumSquare_se_B.eot);
-  src: url(http://viewoss.navercorp.com/lee-juyong/SE3-Markup-Test/blob/webfont_final/font/NanumSquare_se_B.eot?iefix)
-      format("opentype"),
-    url(http://viewoss.navercorp.com/lee-juyong/SE3-Markup-Test/blob/webfont_final/font/NanumSquare_se_B.woff2)
+  font-family: se-nanumsquare-blog;
+  font-weight: 700;
+  src: url("https://editor-static.pstatic.net/c/resources/common/fonts/se-nanumsquare-bold.eot?iefix")
+      format("embedded-opentype"),
+    url("https://editor-static.pstatic.net/c/resources/common/fonts/se-nanumsquare-bold.woff2")
       format("woff2"),
-    url(http://viewoss.navercorp.com/lee-juyong/SE3-Markup-Test/blob/webfont_final/font/NanumSquare_se_B.woff)
+    url("https://editor-static.pstatic.net/c/resources/common/fonts/se-nanumsquare-bold.woff")
       format("woff"),
-    url(http://viewoss.navercorp.com/lee-juyong/SE3-Markup-Test/blob/webfont_final/font/NanumSquare_se_B.ttf)
+    url("https://editor-static.pstatic.net/c/resources/common/fonts/se-nanumsquare-bold.ttf")
       format("truetype");
 }
 
@@ -242,6 +285,13 @@ textarea {
   line-height: inherit;
 }
 
+.edwith-acL {
+  font-family: NanumSquareWebFont-edwith, "NanumSquareWebFont-edwith";
+  font-size: inherit;
+  font-weight: 100;
+  color: #000;
+  line-height: inherit;
+}
 .edwith-acR {
   font-family: NanumSquareWebFont-edwith, "NanumSquareWebFont-edwith";
   font-size: inherit;
@@ -254,6 +304,14 @@ textarea {
   font-family: NanumSquareWebFont-edwith, "NanumSquareWebFont-edwith";
   font-size: inherit;
   font-weight: 700;
+  color: #000;
+  line-height: inherit;
+}
+
+.edwith-acEB {
+  font-family: NanumSquareWebFont-edwith, "NanumSquareWebFont-edwith";
+  font-size: inherit;
+  font-weight: 900;
   color: #000;
   line-height: inherit;
 }
@@ -287,15 +345,30 @@ textarea {
 }
 
 .seR {
-  font-family: se_NanumGothic_new, "se_NanumGothic_new";
-  font-weight: 300;
+  font-family: se_NanumSquare_viewoss, "se_NanumSquare_viewoss";
+  font-weight: 400;
   font-size: inherit;
   color: #000;
   line-height: inherit;
 }
 
 .seB {
-  font-family: se_NanumGothic_new, "se_NanumGothic_new";
+  font-family: se_NanumSquare_viewoss, "se_NanumSquare_viewoss";
+  font-weight: 600;
+  font-size: inherit;
+  color: #000;
+  line-height: inherit;
+}
+.blogR {
+  font-family: se-nanumsquare-blog, "se-nanumsquare-blog";
+  font-weight: 400;
+  font-size: inherit;
+  color: #000;
+  line-height: inherit;
+}
+
+.blogB {
+  font-family: se-nanumsquare-blog, "se-nanumsquare-blog";
   font-weight: 600;
   font-size: inherit;
   color: #000;
