@@ -114,29 +114,29 @@
 }
 
 @font-face {
-  font-family: se_NanumGothic_new;
-  font-weight: 400;
-  src: url("http://viewoss.navercorp.com/lee-juyong/SE3-Markup-Test/blob/webfont_final/font/NanumGothic_se_R.eot");
-  src: url("http://viewoss.navercorp.com/lee-juyong/SE3-Markup-Test/blob/webfont_final/font/NanumGothic_se_R.eot?iefix")
+  font-family: "se_NanumGothic_new";
+  font-weight: 300;
+  src: url(http://viewoss.navercorp.com/lee-juyong/SE3-Markup-Test/blob/webfont_final/font/NanumSquare_se_R.eot);
+  src: url(http://viewoss.navercorp.com/lee-juyong/SE3-Markup-Test/blob/webfont_final/font/NanumSquare_se_R.eot?iefix)
       format("opentype"),
-    url(http://viewoss.navercorp.com/lee-juyong/SE3-Markup-Test/blob/webfont_final/font/NanumGothic_se_R.woff2)
+    url(http://viewoss.navercorp.com/lee-juyong/SE3-Markup-Test/blob/webfont_final/font/NanumSquare_se_R.woff2)
       format("woff2"),
-    url(http://viewoss.navercorp.com/lee-juyong/SE3-Markup-Test/blob/webfont_final/font/NanumGothic_se_R.woff)
+    url(http://viewoss.navercorp.com/lee-juyong/SE3-Markup-Test/blob/webfont_final/font/NanumSquare_se_R.woff)
       format("woff"),
-    url(http://viewoss.navercorp.com/lee-juyong/SE3-Markup-Test/blob/webfont_final/font/NanumGothic_se_R.ttf)
+    url(http://viewoss.navercorp.com/lee-juyong/SE3-Markup-Test/blob/webfont_final/font/NanumSquare_se_R.ttf)
       format("truetype");
 }
 @font-face {
-  font-family: se_NanumGothic_new;
+  font-family: "se_NanumGothic_new";
   font-weight: 600;
-  src: url("http://viewoss.navercorp.com/lee-juyong/SE3-Markup-Test/blob/webfont_final/font/NanumGothic_se_B.eot");
-  src: url("http://viewoss.navercorp.com/lee-juyong/SE3-Markup-Test/blob/webfont_final/font/NanumGothic_se_B.eot?iefix")
+  src: url(http://viewoss.navercorp.com/lee-juyong/SE3-Markup-Test/blob/webfont_final/font/NanumSquare_se_B.eot);
+  src: url(http://viewoss.navercorp.com/lee-juyong/SE3-Markup-Test/blob/webfont_final/font/NanumSquare_se_B.eot?iefix)
       format("opentype"),
-    url(http://viewoss.navercorp.com/lee-juyong/SE3-Markup-Test/blob/webfont_final/font/NanumGothic_se_B.woff2)
+    url(http://viewoss.navercorp.com/lee-juyong/SE3-Markup-Test/blob/webfont_final/font/NanumSquare_se_B.woff2)
       format("woff2"),
-    url(http://viewoss.navercorp.com/lee-juyong/SE3-Markup-Test/blob/webfont_final/font/NanumGothic_se_B.woff)
+    url(http://viewoss.navercorp.com/lee-juyong/SE3-Markup-Test/blob/webfont_final/font/NanumSquare_se_B.woff)
       format("woff"),
-    url(http://viewoss.navercorp.com/lee-juyong/SE3-Markup-Test/blob/webfont_final/font/NanumGothic_se_B.ttf)
+    url(http://viewoss.navercorp.com/lee-juyong/SE3-Markup-Test/blob/webfont_final/font/NanumSquare_se_B.ttf)
       format("truetype");
 }
 
@@ -146,7 +146,6 @@ textarea,
 select,
 button,
 table {
-  font-family: NanumSquareWebFont, "NanumSquareWebFont";
   font-size: 16px;
   text-align: center;
 }
@@ -162,6 +161,10 @@ h4 {
   max-width: 960px;
   display: inline-block;
   text-align: left;
+}
+
+.test .in {
+  width: 100%;
 }
 
 .line {
@@ -202,7 +205,13 @@ textarea {
   text-align: left;
 }
 
+.btn {
+  position: relative;
+  float: right;
+}
+
 .acL {
+  font-family: NanumSquareWebFont, "NanumSquareWebFont";
   font-size: inherit;
   font-weight: 100;
   color: #000;
@@ -210,6 +219,7 @@ textarea {
 }
 
 .acR {
+  font-family: NanumSquareWebFont, "NanumSquareWebFont";
   font-size: inherit;
   font-weight: 300;
   color: #000;
@@ -217,6 +227,7 @@ textarea {
 }
 
 .acB {
+  font-family: NanumSquareWebFont, "NanumSquareWebFont";
   font-size: inherit;
   font-weight: 700;
   color: #000;
@@ -224,6 +235,7 @@ textarea {
 }
 
 .acEB {
+  font-family: NanumSquareWebFont, "NanumSquareWebFont";
   font-size: inherit;
   font-weight: 900;
   color: #000;
@@ -275,15 +287,15 @@ textarea {
 }
 
 .seR {
-  font-family: se_NanumGothic_new;
-  font-weight: 400;
+  font-family: se_NanumGothic_new, "se_NanumGothic_new";
+  font-weight: 300;
   font-size: inherit;
   color: #000;
   line-height: inherit;
 }
 
 .seB {
-  font-family: se_NanumGothic_new;
+  font-family: se_NanumGothic_new, "se_NanumGothic_new";
   font-weight: 600;
   font-size: inherit;
   color: #000;
